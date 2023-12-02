@@ -28,13 +28,13 @@
                         </div>
 
                         
-                        <button  type="submit" > <b> <a href="../html_file/student/student_dashboard.html">Login</a> </b> </button>
+                        <button  type="submit" > <b> <a href="../html_file/student/student_dashboard.php">Login</a> </b> </button>
                         
 
                         
                         
                         <div class="register-link">
-                            <p>Don't have an account?<a href="../html_file/ragistration_page.html">Register</a></p>
+                            <p>Don't have an account?<a href="../html_file/ragistration_page.php">Register</a></p>
                         </div>
                     </form>
                 </div>

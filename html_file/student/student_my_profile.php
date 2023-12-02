@@ -19,13 +19,13 @@
                     <div class="down">
 
                         <ul>
-                            <li><a href="student_dashboard.html"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
-                            <li class="active"><a href="student_my_profile.html"><i class="fa-solid fa-user"></i>  My Profile</a></li>
-                            <li><a href="student_enrolled_course.html"><i class="fa-solid fa-graduation-cap"></i> Enrolled Courses</a></li>
-                            <li><a href="student_wishlist.html"><i class="fa fa-heart-o"></i> Wishlist</a></li>
-                            <li><a href="student_purchase_history.html"><i class="fa-solid fa-cart-shopping"></i> Purchase History</a></li>
-                            <li><a href="student_settings.html"><i class="fa-solid fa-gear"></i> Settings</a></li>
-                            <li><a href="../../index.html"><i class="fa-solid fa-right-from-bracket"></i> Logout </a> </li>
+                            <li><a href="student_dashboard.php"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+                            <li class="active"><a href="student_my_profile.php"><i class="fa-solid fa-user"></i>  My Profile</a></li>
+                            <li><a href="student_enrolled_course.php"><i class="fa-solid fa-graduation-cap"></i> Enrolled Courses</a></li>
+                            <li><a href="student_wishlist.php"><i class="fa fa-heart-o"></i> Wishlist</a></li>
+                            <li><a href="student_purchase_history.php"><i class="fa-solid fa-cart-shopping"></i> Purchase History</a></li>
+                            <li><a href="student_settings.php"><i class="fa-solid fa-gear"></i> Settings</a></li>
+                            <li><a href="../../index.php"><i class="fa-solid fa-right-from-bracket"></i> Logout </a> </li>
                             
                         </ul>
                     </div>

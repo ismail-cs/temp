@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../images/lucian-qxO2PBn7eKU-unsplash.jpg');
+    
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -21,27 +21,35 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 27%;
-    height: 50vh;
+    /*width: 27%;
+    height: 50vh; */
     background-position: center;
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+     /* You can adjust the max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
 }
 
 .Registration-box{
     position: relative;
-    width: 700%;
+    width: 70%;
     height: 600px;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, .5);
-    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(15px);
+    box-shadow: 3px 3px 15px 1px;
+    
 }
 
 h2{
     font-size: 2em;
-    color: #fff;
+    color: #000000;
     text-align: center;
 }
 
@@ -49,7 +57,7 @@ h2{
     position: relative;
     width: 310px;
     margin: 30px 0;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000000;
 }
 
 .input-box label{
@@ -58,7 +66,7 @@ h2{
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
-    color: #fff;
+    color: #000000;
     pointer-events: none;
     transition: .5s;
 }
@@ -75,7 +83,7 @@ h2{
     border: none;
     outline: none;
     font-size: 1em;
-    color: #fff;  
+    color: #000000;  
     padding: 0 35px 0 5px;
 
 }
@@ -84,7 +92,7 @@ h2{
 .input-box .icon {
     position: absolute;
     right: 8px;
-    color: #fff;
+    color: #000000;
     font-size: 1.2em;
     line-height: 57px;
 }
@@ -109,7 +117,7 @@ h2{
 button{
     width: 100%;
     height: 40px;
-    background: #fff;
+    background: #c9a7ff;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -122,7 +130,7 @@ button{
 button:hover{
     width: 100%;
     height: 40px;
-    background: #31e2fa;
+    background: #8600df;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -134,13 +142,13 @@ button:hover{
 
 .register-link{
     font-size: .9em;
-    color: #fff;
+    color: #000000;
     text-align: center;
     margin: 25px 0 10px;
 }
 
 .register-link p a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-weight: 600;
 }
@@ -148,4 +156,17 @@ button:hover{
 .register-link p a:hover {
     text-decoration: underline;
 
+}
+
+
+
+.left-section {
+    flex: 1; 
+    padding: 20px;
+}
+
+.right-section {
+    flex: 1;   
+    padding: 20px;
+    padding-top: 70px;
 }
